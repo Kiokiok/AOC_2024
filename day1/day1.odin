@@ -12,8 +12,6 @@ import "core:time"
 
 main :: proc() 
 {
-	
-
 	raw_file, ok := os.read_entire_file("data/day1.txt")
 
 	string_file : string = string(raw_file)
@@ -21,7 +19,6 @@ main :: proc()
 
 	t_start := time.now()
 
-	
 	part_2(&string_file)
 
 	t_dur := time.diff(t_start, time.now())

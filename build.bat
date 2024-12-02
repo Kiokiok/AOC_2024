@@ -1,1 +1,1 @@
-odin run day1.odin -file -o:speed
+odin run day2/day2.odin -file -o:speed
