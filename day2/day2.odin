@@ -87,13 +87,6 @@ part_2 :: proc(string_file : ^string) {
 
 	for line in strings.split_lines_iterator(string_file)
 	{
-		line := line
-		num  := -1
-		sign := 0
-		is_valid := true
-
-		skip_count := 0
-
 		nums_as_text, _ := strings.fields(line)
 
 		nums : [dynamic]int
